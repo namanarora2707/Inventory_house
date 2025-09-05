@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Insert Data - Neelkanth Rumal House</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <nav>
+    <h1>Neelkanth Rumal House</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+      <li><a href="inventory.html">Insert Data</a></li>
+      <li><a href="delete_in_inventory.html">Remove Data</a></li>
+      <li><a href="record.html">Check Data</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2 style="color: white;">Insert Inventory Data</h2>
+    <form id="insertForm">
+      <input type="text" id="brand" placeholder="Brand" required>
+      <input type="text" id="type" placeholder="Type" required>
+      <input type="text" id="model" placeholder="Model No" required>
+      <input type="text" id="size" placeholder="Size" required>
+      <input type="number" id="quantity" placeholder="Quantity" required>
+      <button type="submit">Add to Inventory</button>
+    </form>
+  </main>
+</body>
+</html>
