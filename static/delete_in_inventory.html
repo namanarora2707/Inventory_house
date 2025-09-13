@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Remove Inventory — Neelkanth Rumal House</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="remove">
+  <nav class="navbar">
+    <div class="nav-left">
+      <a class="brand" href="index.html">Neelkanth Rumal House</a>
+    </div>
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="inventory.html">Purchase</a>
+      <a href="record.html">Stock</a>
+      <a class="active" href="delete_in_inventory.html">Sale</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h2>Remove Item</h2>
+    <form id="delete-form">
+      <label>Model No: <input type="text" id="modelNo" required /></label>
+      <label>Size: <input type="text" id="size" required /></label>
+      <label>MRP: <input type="number" id="mrp" required /></label>
+      <label>Color: <input type="text" id="color" required /></label>
+      <label>Quantity to Remove: <input type="number" id="quantity" required /></label>
+      <button type="submit" class="btn">Remove</button>
+    </form>
+    <p id="delete-msg"></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Check Inventory — Neelkanth Rumal House</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="check">
+  <nav class="navbar">
+    <div class="nav-left">
+      <a class="brand" href="index.html">Neelkanth Rumal House</a>
+    </div>
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="inventory.html">Puchase</a>
+      <a class="active" href="record.html">Stock</a>
+      <a href="delete_in_inventory.html">Sale</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h2>Inventory Records</h2>
+     <input type="text" id="search-box" placeholder="Search by brand, type, model, size or quantity..." />
+    <table id="record-table">
+    <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Type</th>
+        <th>Model No</th>
+        <th>Size</th>
+        <th>MRP</th>
+        <th>Color</th>
+        <th>Quantity</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
